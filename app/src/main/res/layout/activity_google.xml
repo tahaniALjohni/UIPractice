@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="30dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,31 +32,30 @@
             android:id="@+id/imGoogle"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/google"
-            android:contentDescription="TODO" />
+            app:srcCompat="@drawable/google" />
 
 
         <TextView
             android:id="@+id/tvCreate"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="25dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
             android:textAlignment="center"
             android:text="Create your Google Account"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
 
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="30dp" />
+            android:layout_height="20dp" />
 
         <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_height="400dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,6 +93,10 @@
                     tools:ignore="TouchTargetSizeCheck" />
             </LinearLayout>
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -118,13 +121,21 @@
                     android:textSize="16sp" />
             </LinearLayout>
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
             <TextView
                 android:id="@+id/tvHint"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:textAlignment="center"
                 android:hint="You can use letters, numbers &amp; periods"
-                android:textSize="20dp" />
+                android:textSize="15dp" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -155,6 +166,8 @@
                 android:id="@+id/tvHintPass"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
                 android:hint="Use 8 or more characters with a mix of letters, numbers &amp; symbols" />
 
             <CheckBox
@@ -174,6 +187,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textAlignment="center"
                     android:text="Sign in " />
 
                 <Button

@@ -49,11 +49,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="55dp"
-                    android:layout_marginBottom="15dp"
                     android:layout_marginRight="55dp"
                     android:text="Sign up to see photos and videos from your friends."
                     android:textAlignment="center"
-                    android:textSize="18dp"
+                    android:textSize="15dp"
                     android:textColor="#939292"
                     android:textStyle="bold" />
 
@@ -62,7 +61,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="2dp"
                     android:layout_marginRight="30dp"
                     android:backgroundTint="#3782F9">
 
@@ -85,7 +84,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Log in with Facebook"
-                            android:textSize="18dp"
+                            android:textSize="15dp"
                             android:paddingStart="15dp"
                             android:textColor="@color/white"
                             android:textStyle="bold"/>
@@ -116,7 +115,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="OR"
-                        android:textSize="22dp"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <LinearLayout
@@ -132,7 +131,7 @@
                 <EditText
                     android:id="@+id/etMobile"
                     android:layout_width="match_parent"
-                    android:layout_height="45dp"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:hint="Mobile Number or Email"
                     android:inputType="textPersonName"
@@ -140,12 +139,12 @@
                     android:paddingStart="15dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="5dp"/>
 
                 <EditText
                     android:id="@+id/etFullName"
                     android:layout_width="match_parent"
-                    android:layout_height="45dp"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:hint="Full Name"
                     android:inputType="textPersonName"
@@ -153,12 +152,12 @@
                     android:paddingStart="15dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="5dp"/>
 
                 <EditText
                     android:id="@+id/etUserName"
                     android:layout_width="match_parent"
-                    android:layout_height="45dp"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:hint="Username"
                     android:inputType="textPersonName"
@@ -166,12 +165,12 @@
                     android:paddingStart="15dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="5dp"/>
 
                 <EditText
                     android:id="@+id/etPasswordInsta"
                     android:layout_width="match_parent"
-                    android:layout_height="45dp"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:hint="Password"
                     android:inputType="textPersonName"
@@ -179,7 +178,7 @@
                     android:paddingStart="15dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="5dp"/>
 
                 <Button
                     android:id="@+id/btnSignup"
@@ -200,18 +199,18 @@
                     android:layout_height="wrap_content"
                     android:text="By signing up, you agree to our Terms, Data Policy and Cookies Policy."
                     android:layout_marginLeft="30dp"
-                    android:layout_marginBottom="15dp"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginRight="30dp"
                     android:textStyle="bold"
-                    android:textSize="18dp"
+                    android:textSize="15dp"
                     android:textAlignment="center"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp">
 

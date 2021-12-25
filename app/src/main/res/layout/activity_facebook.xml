@@ -30,7 +30,7 @@
             android:id="@+id/ivFacebook"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             app:srcCompat="@drawable/facebook" />
 
         <TextView
@@ -40,15 +40,16 @@
             android:layout_marginLeft="45dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="45dp"
+            android:background="@color/white"
             android:text="Facebook helps you connect and share with the people in your life."
             android:textAlignment="center"
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:textStyle="bold" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="30dp">
+            android:layout_margin="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
